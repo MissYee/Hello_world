@@ -1,0 +1,304 @@
+/*这是整个Header部分的CSS样式*/
+#Header{
+    width:1600px;
+    height: 990px;
+    background-image: url("../images/前端学院设计图_01.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: Miriam;
+}
+.text{
+    color: white;
+    width: 770px;
+    height: 215px;
+    padding: 215px 400px 570px 420px;
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+}
+.text .t_a{
+    font-size: 62px;
+}
+
+.account{
+    width: 970px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 315px;
+    margin-top: -460px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+.account .t_b{
+    font-size: 12px;
+    color: gray;
+}
+#login{
+
+}
+.input{
+    border: 1px solid gray;
+    width: 295px;
+    height: 50px;
+    background: rgba(255,255,255,0);
+    border-radius: 3px;
+    color: white;
+    font-family: Miriam;
+    font-size: 26px;
+    margin: 10px;
+}
+#sign_up{
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: Miriam;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*这是整个Feature_1部分的CSS样式*/
+.content .part{
+    float: left;
+    margin-left: 280px;
+}
+.content .part div{
+    padding: 7px;
+}
+.content img{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#pic_1{
+    margin-left: 40px;
+}
+.part .block{
+    width: 360px;
+    height: 100px;
+    float: right;
+    margin-left: 7px;
+}
+.part .block .t_c{
+    font-size: 20px;
+    /*标题*/
+    margin-top: 50px;
+    font-weight: bold;
+}
+.box{
+    height: 100px;
+}
+/*CallToAction部分的CSS代码*/
+#Call_action{
+    margin-left: 40px;
+    font-family: Miriam;
+}
+.part_sur{
+    position: relative;
+    margin-top: -620px;
+    margin-left: 315px;
+    color: gray;
+}
+.Support{
+    font-size: 22px;
+    word-spacing: 5px;
+}
+.btn{
+    padding-top: 25px;
+}
+#btn_1{
+    background-color: white;
+    border-style: none;
+    width: 230px;
+    height: 65px;
+    border-radius: 5px;
+    font-family: Miriam;
+    margin-right: 10px;
+}
+#btn_2{
+    background-color: rgba(255,255,255,0);
+    width: 230px;
+    height: 65px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Miriam;
+    color: white;
+}
+.Support .t_d{
+    font-size: 46px;
+    word-spacing: 5px;
+    color: white;
+}
+/*Feature_2部分的CSS代码*/
+#Feature_2 img{
+    margin-left:350px;
+}
+#Feature_2 .first{
+    margin-top: 200px;
+    margin-left:40px;
+}
+#Feature_2 p{
+    color: gray;
+    text-align: center;
+    float: left;
+    padding-right: 45px;
+}
+#Feature_2 div{
+    margin-left: 350px;
+    padding-bottom: 250px;
+}
+/*Feature_3部分*/
+#Feature_3 #total_box{
+    margin-left: 330px;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.box_1{
+    margin-top: 50px;
+}
+.squ{
+    width: 320px;
+    height: 260px;
+    font-family: Miriam;
+    font-size: 24px;
+}
+.box_text_1{
+    float: right;
+    margin: 50px 350px 50px -100px;
+}
+.box_text_2{
+    float: left;
+    padding: 90px 60px 50px 50px;
+}
+.gra{
+    color:gray;
+    font-size: 18px;
+}
+/*Team部分*/
+.t_e{
+    text-align: center;
+    font-family: Miriam;
+    font-size: 22px;
+    margin-top: 80px;
+    color: gray;
+}
+.t_e .tit{
+    font-size: 42px;
+    color: black;
+}
+.img_box{
+    width: 1250px;
+    height: 700px;
+    margin: 50px 0px 100px 340px;
+}
+.img_box img{
+    padding: 10px;
+    float: left;
+}
+.cover{
+    display: none;
+    opacity: 0.5;
+    background-image: url("../images/前端_03.png");
+    position: absolute;
+}
+/*Contact部分*/
+#Contact{
+    margin: 100px 0px 100px 300px;
+    font-family: Miriam;
+}
+#Contact form{
+    width: 470px;
+    height: 570px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    font-size: 22px;
+    text-align: center;
+}
+#Contact form p{
+    margin-top: 50px;
+}
+#Contact form input{
+    width: 370px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#Contact textarea{
+    width: 365px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: Miriam;
+    font-size: 20px;
+}
+.send{
+    border-style: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+#Contact .t_f{
+    float: right;
+    font-size: 22px;
+    color: grey;
+    margin: -500px 200px 100px -400px;
+}
+.Con{
+    font-size: 44px;
+    color: black;
+}
+.second {
+    float: right;
+    margin-right: 200px;
+    margin-top: -22px;
+}
+/*FOOTER部分*/
+#Footer{
+    width: 1670px;
+    height: 400px;
+    background-color: black;
+    color: grey;
+    font-family: Miriam;
+    font-size: 20px;
+}
+#text_box{
+    margin: 100px 50px 100px 250px;
+    background-color: black;
+}
+#text_box .box_1{
+    background-color: black;
+    float: left;
+    margin-right: 160px;
+    margin-bottom: 100px;
+}
+.box_title{
+    color: white;
+    font-size: 26px;
+}
+#Footer a{
+    text-decoration: none;
+    line-height: 5px;
+    padding-bottom: 10px;
+}
+#Footer a:link{
+    color: grey;
+    font-family: Miriam;
+    font-size: 22px;
+}
+#Footer a:hover{
+    color: grey;
+    font-family: Miriam;
+    font-size: 22px;
+    text-underline: grey;
+    text-decoration: underline;
+}
+#Footer a:visited{
+    color: grey;
+    font-family: Miriam;
+    font-size: 22px;
+}
+
